@@ -1,37 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    font-family: 'Merriweather', serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 h1 {
-    font-size: ;
-    font-family: ;
-    padding: ;
-    margin: ;
-    font-weight: ;
-    text-decoration: ;
-    color: ;
-    background-color: ;
+    font-size: 2.5em;
+    font-family: 'Merriweather', serif;
+    padding: 20px 0;
+    margin: 0;
+    font-weight: 700;
+    text-decoration: underline;
+    color: #2c3e50;
+    background-color: #ecf0f1;
+    text-align: center;
 }
 
 h2 {
-    font-size: ;
-    font-family: ;
-    padding: ;
-    margin: ;
-    font-weight: ;
-    color: ;
-    background-color: ;
+    font-size: 1.8em;
+    font-family: 'Merriweather', serif;
+    padding: 15px 0;
+    margin: 20px 0;
+    font-weight: 700;
+    color: #34495e;
+    background-color: #f7f9f9;
+    border-bottom: 2px solid #bdc3c7;
 }
 
 p {
-    font-family: ;
-    font-size: ;
-    padding: ;
-    margin: ;
-    color: ;
-    background-color: ;
+    font-family: 'Merriweather', serif;
+    font-size: 1em;
+    padding: 10px 0;
+    margin: 10px 0;
+    color: #333;
+    background-color: #fff;
+}
+
+.story-box {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0;
 }
 
 .logo {
-    background-size: cover;
-    background-image: url();
-    background-color: ;
-    height: ;
-    width: ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('https://appacademy.github.io/styleguide/assets/logo/logo-emblem-black-1000.png');
+    background-color: #f0f0f0;
+    height: 100px;
+    width: 100px;
+    margin: 20px auto;
 }
